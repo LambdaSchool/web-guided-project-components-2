@@ -74,6 +74,7 @@ axios
   .then((res) => {
     console.log("RESPONSE: \n \n", res);
     console.log("res.data: \n \n", res.data);
+    console.log("res.data.message: \n \n", res.data.message);
   })
   .catch((err) => {
     debugger;
