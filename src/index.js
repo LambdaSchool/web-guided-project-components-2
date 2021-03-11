@@ -83,7 +83,7 @@ axios
     });
   })
   .catch((err) => {
-    debugger;
+    console.log(err);
   });
 
 // 👉 (OPTIONAL) TASK 6- Wrap the fetching operation inside a function `getDogs`
