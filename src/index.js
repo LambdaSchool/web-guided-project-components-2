@@ -75,6 +75,8 @@ axios
     console.log("RESPONSE: \n \n", res);
     console.log("res.data: \n \n", res.data);
     console.log("res.data.message: \n \n", res.data.message);
+    const images = res.data.message;
+    console.log(images);
   })
   .catch((err) => {
     debugger;
