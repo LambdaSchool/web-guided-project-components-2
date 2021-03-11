@@ -84,6 +84,7 @@ axios
   })
   .catch((err) => {
     console.log(err);
+    debugger;
   });
 
 // 👉 (OPTIONAL) TASK 6- Wrap the fetching operation inside a function `getDogs`
