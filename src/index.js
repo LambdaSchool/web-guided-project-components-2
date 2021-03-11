@@ -64,9 +64,19 @@ function dogCardMaker({ imageURL, breed }) {
 //    * Proyects with npm: install it with npm and import it into this file
 
 // 👉 TASK 5- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
+
 //    * ON SUCCESS: use the data to create dogCards and append them to the entry point
 //    * ON FAILURE: log the error to the console
 //    * IN ANY CASE: log "done" to the console
+
+axios
+  .get(`https://dog.ceo/api/breed/retriever/images/random/6`)
+  .then((res) => {
+    debugger;
+  })
+  .catch((err) => {
+    debugger;
+  });
 
 // 👉 (OPTIONAL) TASK 6- Wrap the fetching operation inside a function `getDogs`
 // that takes a breed and a count (of dogs)
