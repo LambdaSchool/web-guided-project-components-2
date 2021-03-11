@@ -4,6 +4,7 @@ import axios from "axios";
 
 console.log("check out axios: \n \n", axios);
 const result = axios.get("https://lambda-times-api.herokuapp.com/friends");
+console.log(result);
 
 // 👉 TASK 1- Test out the following endpoints:
 
