@@ -84,6 +84,9 @@ axios
   })
   .catch((err) => {
     console.log(err);
+  })
+  .finally(() => {
+    console.log("done");
   });
 
 // 👉 (OPTIONAL) TASK 6- Wrap the fetching operation inside a function `getDogs`
