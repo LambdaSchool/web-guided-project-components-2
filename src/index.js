@@ -6,11 +6,13 @@ console.log("check out axios: \n \n", axios);
 const result = axios.get("https://lambda-times-api.herokuapp.com/friends");
 console.log(result);
 
+console.log("1. about to fetch the data with axios");
 result.then((futureData) => {
   // future code for when the data actually arrives
   // freedom to assume that the data is already here
-  console.log(futureData);
+  console.log("2. here is the future data: ", futureData);
 });
+console.log("3. about to fetch the data with axios");
 
 // 👉 TASK 1- Test out the following endpoints:
 
